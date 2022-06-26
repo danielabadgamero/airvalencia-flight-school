@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'bord-demo';
+    src: url('Bord.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 50px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010101;
+    font-family: 'Roboto', sans-serif;
+    gap: 50px;
+    color: #eee;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+header h1 {
+    font-family: 'bord-demo', sans-serif;
+    color: #FFBF00;
+    font-size: 2.5em;
+}
+
+header h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    background-color: #111;
+    margin: 50px 0;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.section {
+    margin: 75px 0;
+    line-height: 1.5em;
+    padding-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 20px;
+}
+
+form input:not(input[type="button"]) {
+    margin-bottom: 20px;
+    border: solid #111;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    background-color: #777;
+    color: #eee;
+    
+}
+
+#register {
+    background-color: #FFBF00;
+    border-radius: 20px;
+    color: black;
+    font-family: 'bord-demo', sans-serif;
+    font-size: 1.5em;
+    margin-top: 20px;
+    border: solid;
+    padding: 10px;
+    accent-color: black;
+    cursor: pointer;
+}

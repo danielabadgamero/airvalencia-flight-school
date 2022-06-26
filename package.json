@@ -1,0 +1,27 @@
+{
+  "name": "airvalencia-flight-school",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielabadgamero/airvalencia-flight-school.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielabadgamero/airvalencia-flight-school/issues"
+  },
+  "homepage": "https://github.com/danielabadgamero/airvalencia-flight-school#readme",
+  "dependencies": {
+    "firebase": "^9.8.4",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
